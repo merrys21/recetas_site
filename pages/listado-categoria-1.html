@@ -4,11 +4,12 @@
     Modulo: Lenguaje de marcas y Sistemas de gestión de la información. 
     UD2. 
     LMSGI02 Tarea evaluativa 2 (80%). Sitio Web.
-    Autoevaluación: 
+    Autoevaluación: https://docs.google.com/document/d/1C9vhe6OG0fP2PKGKjZDaRdA1lQj6VBAz/edit?usp=drive_link&ouid=108589785169373909768&rtpof=true&sd=true
     Descripción:    Desarrollar el sitio web diseñado en la primera tarea de evaluación.
                     Mostrar información sobre un tema, en mi caso, una página de recetas.
                     Sitio completo con 5 páginas web (presentación, navegación, noticias, listado de productos, etc.)
--->
+    Url Github: https://merrys21.github.io/recetas_site/index.html
+ -->
 
 <!DOCTYPE html>
 <html lang="es">
@@ -33,8 +34,9 @@
 <body>
 
     <header>
-        <!--MENU NAVEGACIÓN-->
         <h1 class="logo-cabecera"><a href=".././index.html"><img src="../img/logo-aguacate.png" alt="ÑAM ÑAM" class="img-logo-cabecera"></a></h1>
+        
+        <!--MENU NAVEGACIÓN-->
         <nav> 
             <ul>
                 <li class="pointer"><a class="enlace" href=".././index.html">INICIO</a></li>                
@@ -47,6 +49,7 @@
 
     <h2 class="titulo-categoria">ENTRANTES</h2>
 
+    <!--Uso de div como contenedor de la sección listado categorias + recetas de la categoria para poder posicionarlos-->        
     <div id="contenedor-categorias-recetas">
         <section id="listado-categorias">
             <article class="lis-categoria">
@@ -96,6 +99,8 @@
 
             <article class="receta">
                 <img src="../img/crema-antiinflamatoria.jpg" alt="Crema antiinflamatoria con verduras de otoño" class="img-w100 borde-redondeado-medio">
+                
+                <!--Uso de div para agrupar el nombre de la receta + el enlace a la receta-->
                 <div class="nombre-enlace-receta">
                     <h4>Crema antiinflamatoria <br>con verduras de otoño</h4>
                     <a class="enlace-lis-receta" href="receta-1.html">Ver receta</a>
@@ -104,6 +109,7 @@
 
             <article class="receta">
                 <img src="../img/berenjena-rellena.jpg" alt="Berenjena rellena con salsa de miso, azafrán y pera" class="img-w100 borde-redondeado-medio">
+                <!--Uso de div para agrupar el nombre de la receta + el enlace a la receta-->
                 <div class="nombre-enlace-receta">                
                     <h4>Berenjena rellena <br>con salsa de miso, azafrán y pera</h4>
                     <a class="enlace-lis-receta" href="#">Ver receta</a>
@@ -112,6 +118,7 @@
     
             <article class="receta">
                 <img src="../img/gazpacho-aguacate.jpg" alt="Gazpacho de aguacate y kéfir con polvo de avellanas" class="img-w100 borde-redondeado-medio">
+                <!--Uso de div para agrupar el nombre de la receta + el enlace a la receta-->
                 <div class="nombre-enlace-receta">
                     <h4>Gazpacho de aguacate y kéfir <br>con polvo de avellanas</h4>
                     <a class="enlace-lis-receta" href="#">Ver receta</a>
@@ -120,6 +127,7 @@
            
             <article class="receta">
                 <img src="../img/ensalada-garbanzos.jpg" alt="Ensalada de garbanzos, naranja y aguacate con salsa de yogur" class="img-w100 borde-redondeado-medio">
+                <!--Uso de div para agrupar el nombre de la receta + el enlace a la receta-->
                 <div class="nombre-enlace-receta">
                     <h4>Ensalada de garbanzos, naranja y aguacate con salsa de yogur</h4>
                     <a class="enlace-lis-receta" href="#">Ver receta</a>
@@ -128,6 +136,7 @@
     
             <article class="receta">
                 <img src="../img/marinado-tomates.jpg" alt="Marinado de tomates y campiñones con bouquet de judías" class="img-w100 borde-redondeado-medio">
+                <!--Uso de div para agrupar el nombre de la receta + el enlace a la receta-->
                 <div class="nombre-enlace-receta">
                     <h4>Marinado de tomates y campiñones <br> con bouquet de judías</h4>
                     <a class="enlace-lis-receta" href="#">Ver receta</a>
@@ -136,6 +145,7 @@
             
             <article class="receta">
                 <img src="../img/no-quiche-verduras.jpg" alt="No-quiche de verduras y jamón" class="img-w100 borde-redondeado-medio">
+                <!--Uso de div para agrupar el nombre de la receta + el enlace a la receta-->
                 <div class="nombre-enlace-receta">
                     <h4>No-quiche de verduras <br>y jamón</h4>                    
                     <a class="enlace-lis-receta" href="#">Ver receta</a>

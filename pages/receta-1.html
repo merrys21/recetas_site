@@ -4,11 +4,12 @@
     Modulo: Lenguaje de marcas y Sistemas de gestión de la información. 
     UD2. 
     LMSGI02 Tarea evaluativa 2 (80%). Sitio Web.
-    Autoevaluación: 
+    Autoevaluación: https://docs.google.com/document/d/1C9vhe6OG0fP2PKGKjZDaRdA1lQj6VBAz/edit?usp=drive_link&ouid=108589785169373909768&rtpof=true&sd=true
     Descripción:    Desarrollar el sitio web diseñado en la primera tarea de evaluación.
                     Mostrar información sobre un tema, en mi caso, una página de recetas.
                     Sitio completo con 5 páginas web (presentación, navegación, noticias, listado de productos, etc.)
--->
+    Url Github: https://merrys21.github.io/recetas_site/index.html
+ -->
 
 <!DOCTYPE html>
 <html lang="es">
@@ -37,8 +38,9 @@
 <body>
 
     <header>
-        <!--MENU NAVEGACIÓN-->
         <h1 class="logo-cabecera"><a href=".././index.html"><img src="../img/logo-aguacate.png" alt="ÑAM ÑAM" class="img-logo-cabecera"></a></h1>
+        
+        <!--MENU NAVEGACIÓN-->        
         <nav> 
             <ul>
                 <li class="pointer"><a class="enlace" href=".././index.html">INICIO</a></li>                
@@ -50,17 +52,23 @@
     </header>
 
     <section id="receta">
+        <!--Uso de div como contenedor de la imagen de receta para poder posicionarla-->
         <div class="contenedor-imagen-receta">
             <img src="../img/crema-antiinflamatoria.jpg" alt="Crema antiinflamatoria con verduras de otoño" class="img-receta">
         </div>
 
+        <!--Uso de div como contenedor del titulo de la receta + el contenedor de los ingredientes-->
         <div class="encabezado-receta">
             <h2><span class="nombre-receta-verde">Crema antiinflamatoria</span> <br>con verduras de otoño</h2>   
             <h3>INGREDIENTES</h3>
 
-           <div class="contenedor-ingredientes">
-            <article  class="ingrediente">
+            <!--Uso de div como contenedor de los ingredientes-->            
+            <div class="contenedor-ingredientes">
+            <article class="ingrediente">
+
+                <!--Uso de div para agrugar la imagen-->                   
                 <div class="contenedor-img-ingrediente"><img src="../img/tomate.png" alt="Tomate" class="img-w100"></div>
+                <!--Uso de div para agrugar el texto-->
                 <div class="contenedor-texto-ingrediente">  
                     <h6>6</h6>
                     <h5>tomates grandes</h5>
@@ -142,6 +150,7 @@
         <p>Por último, añade el líquido de las verduras, le dará un sabor espectacular. </p>
         <p>Échale la sal y la pimienta al gusto, y ¡Lista! Ya tienes una sabrosa y nutritiva crema de verduras de otoño para disfrutar. </p>
 
+        <!--Uso de div para agrugar los enlaces-->        
         <div class="contenedor-enlaces">        
             <a class="enlace-video-descarga" href="https://www.instagram.com/come.vive.viaja/reel/DAavD8_u766/">Ver video</a>
             <a class="enlace-video-descarga" href="#">Descargar receta</a>
