@@ -35,8 +35,9 @@ body {
 header {
     display: flex;
     text-align: center;
-    align-items: center;
-    margin-bottom: 1%;    
+    align-items: center; 
+    background-color: white;
+    margin-bottom: 1%; 
 }
 
 nav {
@@ -88,6 +89,14 @@ li {
     color: black;    
 }
 
+.boton-subir {
+    position: fixed;
+    bottom: 25px;
+    right: 0;
+    background-color: #609000;
+    border-radius: 5px 0 0 5px;
+    padding: 0.5%;
+}
 
 /* INICIO */
 #presentacion {
@@ -95,12 +104,12 @@ li {
     align-items: center;
     background-color: #e7e8ea;
     border-radius: 20px;
-    margin-bottom: 1%;              
+    margin-bottom: 1%;       
 }
 
 .modulo-texto {
     flex-basis: 60%;
-    padding: 2%;   
+    padding: 2%;       
 }
 
 .modulo-img {
