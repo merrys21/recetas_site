@@ -215,16 +215,31 @@ aside {
     text-align: center;
 }
 
+.categoria h5, .lis-categoria h5{
+    color: black;
+}
+
+.categoria:hover h5, .lis-categoria:hover h5{
+    color: #609000;
+}
+
+.categoria img, .lis-categoria img{
+    filter: grayscale(75%);  
+}
+
+.categoria:hover img, .lis-categoria:hover img{
+    filter: none;
+}
+
+
 .categoria{
     padding: 0.5% 3.5%;
     margin: 0 2%;
     border: 1px solid #609000;
     border-radius: 2rem;
-    filter: grayscale(75%);     
 }
 
 .categoria:hover{
-    filter: none;
     cursor: pointer;
 }
 
@@ -339,14 +354,14 @@ aside {
 
 .lis-categoria{
     padding: 1%;
-    margin-bottom:10%;
-    filter: grayscale(75%);    
+    margin-bottom:10%; 
 }
 
-.lis-categoria:hover{
-    filter: none;
-    cursor: pointer;  
+.lis-categoria{
+    padding: 1%;
+    margin-bottom:10%; 
 }
+
 
 #listado-recetas{
     display: flex;
@@ -394,7 +409,9 @@ aside {
 
 .img-receta{
     border-radius: 20px; 
-    width: 100%; 
+    width: 50%;
+    margin-right: 2%;
+    display: block;
 }
 
 .encabezado-receta h2 {
@@ -410,10 +427,7 @@ aside {
     margin-bottom: 1%;
 }
 
-.contenedor-imagen-receta{
-    flex-basis: 50%;
-    margin-right: 2%;
-}
+
 
 .encabezado-receta {
     flex-basis: 50%;
@@ -429,9 +443,10 @@ aside {
     align-items: center;
 }
 
-.contenedor-img-ingrediente{
-    flex-basis: 15%;
-    margin-right: 5%; 
+.img-ingrediente{
+    width: 15%;
+    margin-right: 5%;
+    display: block;
 }
 
 .contenedor-texto-ingrediente {
@@ -527,8 +542,9 @@ aside {
 }
 
 .contenedor-img-noticia {
-    flex-basis: 10%;
+    width: 10%;
     margin-right: 2%;    
+    display: block;
 }
 
 .texto-noticia{
