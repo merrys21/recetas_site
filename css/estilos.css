@@ -207,6 +207,19 @@ aside {
     font-weight: 700;
 }
 
+/* Uso de la propiedad  Transforms scale() + transition para hacer un efecto zoom*/
+.receta-popular, .receta {
+    overflow: hidden;
+}
+
+.zoom{
+    transition: transform 1s ease;
+}
+
+.zoom:hover{
+    transform: scale(1.1);  
+}
+
 
 /* RECETAS */
 
