@@ -183,6 +183,8 @@ li {
     flex-grow:1;
     margin: 0.3rem;
     padding: 0.5rem;
+
+    position: relative;
 }
 
 aside {
@@ -209,6 +211,10 @@ aside {
     font-size: 0.8rem;
     color: #609000;
     font-weight: 700;
+
+    position: absolute;
+    bottom: 10%;
+    right: 0;
 }
 
 .enlace-footer {
@@ -556,7 +562,9 @@ aside {
     padding: 1%;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-bottom: 2%;      
+    margin-bottom: 2%;   
+    
+    position: relative;
 }
 
 .contenedor-noticia:hover {
@@ -575,6 +583,10 @@ aside {
 }
 
 .enlace-page-noticias{
+    position: absolute;
+    right: 2%;
+    top: 50%;
+
     color: #609000;    
     flex-basis: 10%;
     font-weight: 700;
